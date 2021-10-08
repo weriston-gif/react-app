@@ -12,7 +12,8 @@ ReactDOM.render(
   <div>
     <div>
       <Card titulo="Exemplo de card">
-        <Wrandom min={5} max={100748}></Wrandom>
+        <Wrandom min={5,4} max={100748}></Wrandom>
+        <Wrandom min={7} max={100748}></Wrandom>
       </Card>
     </div>
     <div className="spaceX">

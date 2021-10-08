@@ -10,24 +10,17 @@ export default function random(props) {
     // min = Math.ceil(min);
     // max = Math.floor(max);
     const result = Math.floor(Math.random() * (max - min)) + min;
-
     return (
         <div>
             <h2 className="title"> Valor do random </h2>
             <p>
-                
-                    Valor minimo passado por parametro: <strong>{min}
-                </strong>
+                Valor minimo passado por parametro: <strong>{min}</strong>
             </p>
             <p>
-                
-                Valor máximo passado por parametro: <strong>{max}
-                </strong>
+                Valor máximo passado por parametro: <strong>{max}</strong>
             </p>
             <p>
-                
-                    Resultado: <strong>{result}
-                </strong>
+                Resultado: <strong>{result}</strong>
             </p>
         </div>
     )
