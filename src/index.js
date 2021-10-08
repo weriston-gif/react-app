@@ -1,17 +1,28 @@
 import React from 'react';
+import Card2 from './componets/layout/Card2';
+import Card from './componets/layout/Card';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Task from './componets/basicos/First'
+import Wrandom from './componets/basicos/aleatorio';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+ReactDOM.render(
+  <div>
+    <div>
+      <Card titulo="Exemplo de card">
+        <Wrandom min={5} max={100748}></Wrandom>
+      </Card>
+    </div>
+    <div className="spaceX">
+      <Card2>
+        <Task></Task>
+      </Card2>
+    </div>
+
+  </div>,
+  document.getElementById('root'),
+  reportWebVitals()
+)
+
