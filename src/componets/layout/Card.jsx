@@ -4,9 +4,9 @@ import '../style/card.css'
 
 export default function card(props) {
     return (
-        <div className='body'>
-            <div className='titulo'> Conteudo</div>
-            <div className='content'> 
+        <div className='body-0'>
+            <div className='titulo-0'> Conteudo</div>
+            <div className='content-0'> 
                  {props.children}
             </div>
         </div>

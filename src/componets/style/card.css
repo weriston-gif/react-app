@@ -1,18 +1,18 @@
-.body{
+.body-0{
     background-color: rgb(238, 8, 8);
     border-radius: 14px 14px 14px 14px;
     border: 2px solid red;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 14px "Noto Serif JP", serif;
     
 }
-.titulo{
+.titulo-0{
     font-size: large;
     padding: 10px 0px;
     display: flex;
     justify-content: center;
 }
-.content{
+.content-0{
     background-color: white;
     padding: 20px;
     color:black;
