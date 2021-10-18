@@ -1,13 +1,10 @@
 body {
   font-family: 14px "Noto Serif JP", serif;
   /* margin: 20px; */
-  padding: 5%;
   background-color: rgb(66, 66, 141);
+  
 }
-.title {
+.App{
   display: flex;
-  justify-content: center;
-}
-.spaceX {
-  margin-top: 20px;
+  margin: auto;
 }
