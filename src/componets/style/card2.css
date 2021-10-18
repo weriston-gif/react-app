@@ -4,12 +4,12 @@
     border: 2px solid rgb(39, 228, 156);
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    
+    height: 300px;
+    width: 300px;  
 }
 .titulo-{
     font-size: large;
     padding: 10px 0px;
-    display: flex;
     justify-content: center;
 }
 .content-{
@@ -17,8 +17,6 @@
     padding: 20px;
     color:black;
     border-radius: 0px 0px 14px 14px;
-    display: flex;
     justify-content: center;
-
-    
+     
 }

@@ -1,27 +1,22 @@
 import React from 'react';
-import Card2 from './componets/layout/Card2';
 import Card from './componets/layout/Card';
 import ReactDOM from 'react-dom';
 import Task from './componets/basicos/First'
 import Wrandom from './componets/basicos/aleatorio';
 import reportWebVitals from './reportWebVitals';
-
-
+import Family from "./componets/basicos/family"
 
 ReactDOM.render(
-  <div>
-    <div>
-      <Card titulo="Exemplo de card">
-        <Wrandom min={5,4} max={100748}></Wrandom>
-        <Wrandom min={7} max={100748}></Wrandom>
-      </Card>
-    </div>
-    <div className="spaceX">
-      <Card2>
-        <Task></Task>
-      </Card2>
-    </div>
-
+  <div className="App">
+    <Card titulo="Random" color="red">
+      <Wrandom min={5} max={100748}></Wrandom>
+    </Card>
+    <Card titulo="Family" color="green">
+      <Family sobrenome="Pereira"></Family>
+    </Card>
+    <Card titulo="Taks" color="yellow">
+      <Task></Task>
+    </Card>
   </div>,
   document.getElementById('root'),
   reportWebVitals()
